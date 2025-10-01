@@ -7,3 +7,4 @@ set -e
 ###
 ./shell/install.sh
 ./vim/install.sh
+./tmux/install.sh
