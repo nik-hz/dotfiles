@@ -5,6 +5,6 @@ set -e
 ###
 # Installation
 ###
-./shell/install.sh
-./vim/install.sh
-./tmux/install.sh
+sh ./shell/install.sh
+sh ./vim/install.sh
+sh ./tmux/install.sh
