@@ -17,3 +17,6 @@ ln -sf "${PWD}/shell/.zshrc" "${HOME}/.zshrc"
 
 echo "🚀 p10k installation"
 ln -sf "${PWD}/shell/.p10k.zsh" "${HOME}/.p10k.zsh"
+
+echo "🚀 history config installation"
+ln -sf "${PWD}/shell/.zsh_history_config" "${HOME}/.zsh_history_config"

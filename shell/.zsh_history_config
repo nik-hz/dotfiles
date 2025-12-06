@@ -1,0 +1,10 @@
+# Devcontainer history configuration
+# Mount a volume at /history to persist history across container rebuilds
+
+export HISTFILE=/history/.zsh_history
+export HISTSIZE=100000
+export SAVEHIST=100000
+
+setopt SHARE_HISTORY
+setopt APPEND_HISTORY
+setopt INC_APPEND_HISTORY

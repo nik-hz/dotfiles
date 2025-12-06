@@ -4,6 +4,12 @@ export EDITOR=vim
 export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
 
+# --- Devcontainer history config ---
+# Source history config if /history is mounted (devcontainer)
+if [ -d "/history" ] && [ -f "$HOME/.zsh_history_config" ]; then
+    source "$HOME/.zsh_history_config"
+fi
+
 # Add common paths
 export PATH="$HOME/.local/bin:$HOME/bin:$PATH"
 
