@@ -5,7 +5,7 @@ Personal configuration files for zsh, vim, and tmux.
 ## Installation
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/dotfiles.git ~/dotfiles
+git clone https://github.com/nik-hz/dotfiles.git ~/dotfiles
 cd ~/dotfiles
 ./install.sh
 ```
